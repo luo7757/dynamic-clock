@@ -1,0 +1,38 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+}
+.warpper{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.warpper .column,
+.warpper .coln{
+    color: #ddd;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 70px;
+    font-weight: 300; 
+}
+
+.warpper .column{
+    transition: 0.3s all;
+}
+
+.warpper .coln{
+    transform: translateY(calc(50vh - 42px));
+}
+.visible{
+    opacity: 1;
+}
+.close{
+    opacity: 0.35;
+}
+.far{
+    opacity: 0.15;
+}
+.distance{
+    opacity: 0.1;
+}
